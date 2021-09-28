@@ -1,0 +1,216 @@
+.personal-info-table table {
+	    border-color: red;
+}
+
+.hsp-year-table-dark table tbody tr td:first-of-type {
+    background-color: #d9d9d9;
+    width: 12%;
+}
+
+.first-cell-table-dark table tbody tr:first-of-type td:first-of-type {
+    background-color: #d9d9d9;
+}
+
+table th, tr td {
+    border: black;
+}
+
+tfoot tr td {
+    text-align: right;
+}
+
+.left-aligned-footer tfoot tr td {
+    text-align: left;
+}
+
+/* Hide header for editgrid */
+.hide-grid-header ul .list-group-header {
+    display: none;
+}
+
+.control-label {
+    font-size: 0.9em;
+}
+
+/* Table columns relative */
+.table-two-on-eight table tbody tr td:first-of-type {
+    width: 20%;
+}
+
+.table-one-on-one table tbody tr td:first-of-type {
+    width: 50%;
+}
+
+.table-three-on-three-on-three table tbody tr td:first-of-type {
+    width: 30%;
+}
+.table-three-on-three-on-three table tbody tr td:last-of-type {
+    width: 30%;
+}
+.table-weekly-total {
+    margin-top: -36px;
+}
+.table-weekly-total  table tbody tr td:last-of-type {
+    width: 14.286%;
+}
+.table-quaters table tbody tr td {
+    width: 25%;
+}
+
+.table-four-on-five table tbody tr td:first-of-type {
+    width: 45%;
+}
+.table-four-on-five table tbody tr td:last-of-type {
+    width: 55%;
+}
+
+
+.table-header-datagrid {
+    margin-right: 5.55%;;
+}
+
+.table-seven-on-three table tbody tr td:first-of-type {
+    width: 70%;
+}
+
+.table-four-on-four-on-two table tbody tr td:last-of-type {
+    width: 20%;
+}
+
+/* Icon remove for left-labeled datetime picker */
+.formio-component-datetime div .filed-content div .input-group {
+    width: 100%;
+}
+
+.formio-component-datetime div .filed-content div .input-group .input-group-addon {
+    display: none;
+}
+
+/* Icon remove for top-labeled datetime picker */
+.formio-component-datetime div .input-group {
+    width: 100%;
+}
+
+.formio-component-datetime div .input-group .input-group-addon {
+    display: none;
+}
+
+.top-dark-border {
+    border-top: 2px solid black;
+}
+
+.bottom-dark-border {
+    border-bottom: 2px solid black;
+}
+
+.horizontal-dark-border {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.dark-header-table tr:first-of-type{
+    background-color: #d9d9d9;
+}
+
+.datagrid-borderless .datagrid-table>tbody>tr>td {
+    padding: 0;
+    border: none;
+}
+
+.datagrid-borderless .datagrid-table {
+    border: none;
+}
+
+.editgrid-borderless .list-group-item {
+    padding: 0;
+}
+
+.borderless-suffix .input-group-addon {
+    border: none;
+    background-color: white;
+    box-shadow: none;
+}
+
+.formio-component-datetime.borderless-datetime .form-control.input {
+    border: none;
+    box-shadow: none;
+}
+
+.formio-component-select.borderless-select .form-control.fluid.selection.dropdown {
+    border: none;
+    box-shadow: none;
+}
+
+.formio-component.label-center-align {
+    text-align: center;
+}
+
+.titeled-week-table table tbody tr>td{
+    width: 11%;
+}
+
+.titeled-week-table table tbody tr>td:first-of-type{
+    width: 23%;
+}
+
+.titeled-week-datagrid table tfoot tr>td {
+    padding: 0;
+    border: none;
+}
+.titeled-week-datagrid table tfoot tr>td button{
+    width: 23%;
+    padding: 0;
+}
+
+.formio-component-datagrid table tfoot tr>td button {
+    border-radius: 0;
+    box-shadow: 2px 2px #999;
+    background-color: #d4d0c8;
+    color: black;
+    border: none;
+}
+
+.formio-component-datagrid table tfoot tr>td button>i {
+    display: none;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+.week-table table tbody tr>td {
+    width: 14.286%;
+}
+
+.week-datagrid table tfoot tr>td {
+    padding: 0;
+    border: none;
+}
+.week-datagrid table tfoot tr>td button{
+    width: 14.286%;
+    padding: 0;
+}
+
+
+.formio-component-table table {
+    border: none;
+}
+
+.formio-component-table>table>tbody td {
+    border: 1px solid black;
+}
+
+.default-font-size .control-label {
+    font-size: 15px;
+}
+
+.adjusted-radio .radio-inline, .checkbox-inline{
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.adjusted-radio .input-group {
+    margin-left: 10px;
+}
